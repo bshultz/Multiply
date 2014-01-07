@@ -21,6 +21,7 @@
 		E09BEF5E187CA89A0038EB02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09BEF40187CA8990038EB02 /* UIKit.framework */; };
 		E09BEF66187CA89A0038EB02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E09BEF64187CA89A0038EB02 /* InfoPlist.strings */; };
 		E09BEF68187CA89A0038EB02 /* MultiplyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E09BEF67187CA89A0038EB02 /* MultiplyTests.m */; };
+		E09BEF72187CA8CC0038EB02 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09BEF71187CA8CC0038EB02 /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E09BEF63187CA89A0038EB02 /* MultiplyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiplyTests-Info.plist"; sourceTree = "<group>"; };
 		E09BEF65187CA89A0038EB02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E09BEF67187CA89A0038EB02 /* MultiplyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyTests.m; sourceTree = "<group>"; };
+		E09BEF71187CA8CC0038EB02 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09BEF72187CA8CC0038EB02 /* CheckMate.framework in Frameworks */,
 				E09BEF3F187CA8990038EB02 /* CoreGraphics.framework in Frameworks */,
 				E09BEF41187CA8990038EB02 /* UIKit.framework in Frameworks */,
 				E09BEF3D187CA8990038EB02 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		E09BEF3B187CA8990038EB02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E09BEF71187CA8CC0038EB02 /* CheckMate.framework */,
 				E09BEF3C187CA8990038EB02 /* Foundation.framework */,
 				E09BEF3E187CA8990038EB02 /* CoreGraphics.framework */,
 				E09BEF40187CA8990038EB02 /* UIKit.framework */,
@@ -378,6 +382,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bradshultz/Desktop/git,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Multiply/Multiply-Prefix.pch";
 				INFOPLIST_FILE = "Multiply/Multiply-Info.plist";
@@ -391,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bradshultz/Desktop/git,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Multiply/Multiply-Prefix.pch";
 				INFOPLIST_FILE = "Multiply/Multiply-Info.plist";
